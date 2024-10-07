@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="45sp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/textfields"
+        android:fontFamily="@font/aldrich"
+        android:hint="Name: "
+        android:paddingLeft="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="22dp" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="45sp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/textfields"
+        android:fontFamily="@font/aldrich"
+        android:hint="Email: "
+        android:paddingLeft="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="22dp" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="45sp"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/textfields"
+        android:fontFamily="@font/aldrich"
+        android:hint="Mobile: "
+        android:paddingLeft="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="22dp" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="45sp"
+        android:layout_marginTop="395dp"
+        android:background="@drawable/textfields"
+        android:fontFamily="@font/aldrich"
+        android:hint="Address: "
+        android:paddingLeft="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="22dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/cabin_semibold"
+        android:text="Register"
+        android:textColor="#0F67B1"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/cabin_semibold"
+        android:text="Cancel"
+        android:textColor="#0F67B1"
+        android:textSize="25dp" />
+</RelativeLayout>

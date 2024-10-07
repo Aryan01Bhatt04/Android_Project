@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    tools:context=".DeleteDialog"
+    android:background="@drawable/dialogbox">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/outline_cancel_24"
+        >
+
+        <TextView
+            android:id="@+id/deleteMessage"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Are You Sure?"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/Yes"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="75dp"
+
+            android:fontFamily="@font/cabin_semibold"
+            android:text="Yes"
+            android:textColor="#B80000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/No"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="75dp"
+
+            android:fontFamily="@font/cabin_semibold"
+            android:text="No"
+            android:textColor="#06D001"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

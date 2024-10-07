@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProduct"
+    android:background="@drawable/background_main">
+
+    <EditText
+        android:id="@+id/NewName"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/textfields"
+        android:elevation="20dp"
+        android:fontFamily="@font/aldrich"
+        android:hint="Enter Product Name:"
+        android:paddingLeft="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/NewStock"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/textfields"
+        android:elevation="20dp"
+        android:fontFamily="@font/aldrich"
+        android:hint="Quantity:"
+        android:paddingLeft="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15dp" />
+
+    <Spinner
+        android:id="@+id/NewUnit"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:background="@drawable/textfields"
+        android:paddingLeft="10dp"
+        android:elevation="20dp"
+        android:layout_marginLeft="181dp"
+        android:layout_marginTop="145dp"
+        android:dropDownWidth="45dp"
+        />
+
+    <EditText
+        android:id="@+id/NewPrice"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/textfields"
+        android:elevation="20dp"
+        android:fontFamily="@font/aldrich"
+        android:hint="Cost of Product Per Unit:"
+        android:paddingLeft="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/NewDescription"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/textfields"
+        android:elevation="20dp"
+        android:fontFamily="@font/aldrich"
+        android:gravity="top"
+        android:hint="Description:"
+        android:paddingLeft="20sp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/NewImgSelect"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/cabin_semibold"
+        android:text="Select Image"
+        android:textColor="#0F67B1"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/NewImgPreview"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/textfields" />
+
+    <Button
+        android:id="@+id/UpdateGrocery"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/cabin_semibold"
+        android:text="Update Product"
+        android:textColor="#0F67B1"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="197dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/cabin_semibold"
+        android:text="Cancel"
+        android:textColor="#0F67B1"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

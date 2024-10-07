@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_3"
+    tools:context=".ShopScreen">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logosnip"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ProductCard"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_marginTop="55dp"
+        app:cardElevation="25dp"
+        >
+
+        <ListView
+            android:id="@+id/Products"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/ProductCard"
+        app:cardBackgroundColor="#f1e9bd"
+        app:cardElevation="60dp"
+        >
+
+        <TextView
+            android:id="@+id/TotalLabel"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center"
+            android:text="Cart Total: "
+            android:textColor="#465117"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Total"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/aldrich"
+            android:textColor="#465117"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/ProceedButton"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/proceedbutton"
+            android:fontFamily="@font/cabin_semibold"
+            android:text="Proceed to Pay"
+            android:textColor="#cfd186" />
+
+        
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "384217568270",
+    "project_id": "smallbasket-59d8d",
+    "storage_bucket": "smallbasket-59d8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384217568270:android:fd4597ae2f9f323f18d85f",
+        "android_client_info": {
+          "package_name": "com.example.smallbasket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8WnYOCTkt-RFAGf7Ay6Swjg1Th6ICJZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
